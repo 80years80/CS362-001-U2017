@@ -56,7 +56,7 @@ public class MergeSort
         /* Copy remaining elements of R[] if any */
         while (j < n2)
         {
-            arr[k] = R[j+1];//crashes program
+            arr[k] = R[j+1];//crashes program Bug#3
             j++;
             k++;
         }
