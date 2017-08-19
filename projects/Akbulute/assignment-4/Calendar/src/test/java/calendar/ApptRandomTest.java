@@ -137,7 +137,7 @@ public class ApptRandomTest {
 			 if(!appt.getValid())continue;
 			for (int i = 0; i < NUM_TESTS; i++) {
 				appt.setStartMinute(random.nextInt(100)-20);
-				appt.setStartHour(random.nextInt(100)-20);
+				appt.setStartHour(random.nextInt(100)-50);
 				appt.setStartDay(random.nextInt(100));
 				appt.setStartMonth(random.nextInt(100));
 				}
